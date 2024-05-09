@@ -1,0 +1,85 @@
+body{
+	background-color: #ffffff;
+	margin: 0;
+	font-family: 'Roboto Mono';
+}
+/*header*/
+header{
+	position: fixed;
+	top:0;
+	margin: 0;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+/*header*/
+
+main{
+	display:grid;
+	grid-template-columns:18vw 18vw 18vw 18vw 18vw;
+	margin:  ;
+	grid-gap: 2.5vw;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.adesno:hover{
+	color:gray;
+}
+
+
+#levo{
+	font-size: 20px;
+	color: #000000;
+	width: auto;
+	padding-bottom:11px;
+	margin:0;
+	padding: 10px 10px 10px 20px;
+	margin: 0;
+	justify-self: left;
+}
+
+#sredina{
+	font-size: 20px;
+	font-weight: 500;
+	color: #000000;
+	width: auto;
+	padding-bottom:11px;
+	margin:0;
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	justify-self: center;
+}
+#desno{
+	font-size: 20px; 
+	color: #000000;
+	padding-bottom:11px;
+	width: auto;
+	margin:0;
+	padding: 10px 20px 10px 10px;
+	margin: 0;
+	justify-self: right;
+}
+
+#Mesec{
+	font-size: 20px;
+	justify-self: center;
+	padding-top: 50vh;
+
+}
+
+.naslov:hover{
+	color:gray;
+}
+
+
+
+
+
+
